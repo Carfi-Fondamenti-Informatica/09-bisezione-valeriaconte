@@ -26,7 +26,9 @@ int main() {
         }
         err=abs((b-a)/2);
     }while (err >= 1e-6);
-    cout.precision(4);
-    cout << x;
+    x=x*10000;
+    float c= int(x);
+    float r=c/10000;
+    cout << r;
     return 0;
 }
