@@ -26,6 +26,7 @@ int main() {
         }
         err=abs((b-a)/2);
     }while (err >= 1e-6);
-    printf("%.4f",x);
+    cout.precision(4);
+    cout << x;
     return 0;
 }
